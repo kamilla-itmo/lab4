@@ -8,11 +8,10 @@
 4.Повторно запустила эти контейнеры : sudo docker exec aafire1 aafire2
 
 5.Создала сеть между контейнерами : sudo docker network create myNetwork
- 
 
 6. Подключила оба контейнера к созданной сети :
 
                                                 docker network connect myNetwork aafire1
                                                 docker network connect myNetwork aafire2
    
-8. Проверила соединение между контейнерами при помощи утилиты , но произошла ошибка. 
+7. Проверила соединение между контейнерами при помощи утилиты , но произошла ошибка. 
