@@ -1,5 +1,5 @@
 ## Отчет
-1. Созадала dockerfile
+1. Создала dockerfile
 2. Построила образ : sudo docker build . -t aafire
 3. Создала 2 контейнера : sudo docker run -t --name aafire1 aafire ; sudo docker run -t --name aafire2
 
@@ -14,4 +14,4 @@
                                                 docker network connect myNetwork aafire1
                                                 docker network connect myNetwork aafire2
    
-7. Проверила соединение между контейнерами при помощи утилиты , но произошла ошибка. 
+7. Проверила соединение между контейнерами при помощи утилиты ping , но произошла ошибка. 
